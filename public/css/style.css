@@ -1,0 +1,79 @@
+.hide {
+    display: none;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+
+
+/* style css */
+.login h1 {
+    font-size: 50px;
+}
+.row {
+    margin: 0px;
+}
+.signin {
+    padding: 50px 350px;
+}
+
+.add-new-url {
+    padding: 20px 60px;;
+}
+
+#shorten-url, #personal-access-token {
+    display: inline;
+    width: 80%;
+}
+
+/* scrolling */
+table.scrolldown tbody, table.scrolldown thead {
+    display: block;
+}
+   
+table.scrolldown tbody {
+        
+    /* Set the height of table body */
+    max-height: 500px; 
+        
+    /* Set vertical scroll */
+    overflow-y: auto;
+        
+    /* Hide the horizontal scroll */
+    overflow-x: hidden; 
+}
+    
+tbody td, thead th {
+    width : 400px;
+}
+
+@media(max-width: 767px) {
+    .add-new-url {
+        padding: 10px 10px;;
+    }
+
+    .signin {
+        padding: 20px 20px;
+    }
+}
